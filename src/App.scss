@@ -1,0 +1,84 @@
+//------------------------------------------------//
+//-------------------// Header//------------------//
+//------------------------------------------------//
+
+.header-app {
+  width: 100%;
+  height: 81px;
+  background-color: #333333;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: white;
+    font-size: 40px;
+  }
+}
+
+//------------------------------------------------//
+//-------------------// Main//--------------------//
+//------------------------------------------------//
+
+.container-app {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  .bloc {
+    border: 5px solid;
+    height: 300px;
+    width: auto;
+    flex: 25%;
+    margin: 30px;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .description {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  }
+
+  .green {
+    border: 5px solid green;
+  }
+
+  .red {
+    border: 5px solid red;
+  }
+
+  .rose {
+    border: 5px solid pink;
+  }
+
+  .bleu {
+    border: 5px solid blue;
+  }
+
+  .yellow {
+    border: 5px solid yellow;
+  }
+}
+
+//------------------------------------------------//
+//-------------------// Footer//------------------//
+//------------------------------------------------//
+
+.footer-app {
+  width: 100%;
+  background-color: #e5e5e5;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: black;
+  }
+}
